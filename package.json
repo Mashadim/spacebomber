@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "Masha Diminsky",
-  "license": "ISC",
+  "author": "Masha Diminsky (https://github.com/Mashadim)",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.13.4",
     "mongoose": "^4.4.19",
