@@ -5,17 +5,17 @@ var Puzzle = require('./models/puzzle.js');
 app.get('/', function(req, res) {
 	res.set(200);
 	res.setHeader('Content-Type', 'text/html');
-	res.sendFile(__dirname + '/index.html');
+	res.sendFile(__dirname + '/client/index.html');
 });
 
 app.get('/style.css', function(req, res){
 	res.setHeader('Content-Type', 'text/css');
-  res.sendFile(__dirname + '/style.css');
+  res.sendFile(__dirname + '/client/style.css');
 });
 
 app.get('/mainLogic.js', function(req, res){
 	res.setHeader('Content-Type', 'application/javascript');
-  res.sendFile(__dirname + '/mainLogic.js');
+  res.sendFile(__dirname + '/client/mainLogic.js');
 });
 
 app.get('/puzzle/:index', function(req, res) {
