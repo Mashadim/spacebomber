@@ -3,7 +3,8 @@ Cadet, your team is in trouble! It's up to you to unlock all the rooms and save 
 
 ## Getting Started
 
-Open your git command.    
+Open your git command.  
+Download or clone this repo.
 Go to file.   
 Enter *npm start*.   
 Enter *localhost:3000* in the url.   
