@@ -191,3 +191,15 @@ button {
 .the-score {
 	display:none;
 }
+
+#footer {
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+#footer a{
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}

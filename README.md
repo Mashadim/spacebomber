@@ -10,6 +10,3 @@ Enter *localhost:3000* in the url.
 Have fun! :heart:
 
 ![alt text](/gamepreview.png)
-
-*A created by [Masha Diminsky](https://github.com/Mashadim).*
-*Check out the code [here](https://github.com/Mashadim/spacebomber).*
