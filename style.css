@@ -1,0 +1,193 @@
+body {
+	background-image: url("http://wallpapercave.com/wp/pEeUsp1.jpg");
+	background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#board {
+  width: 640px;
+  height: 640px;
+}
+
+#board button {
+  width: 39px;
+  height: 39px;
+}
+
+.center {
+	margin: auto;
+	text-align: center;
+}
+
+button {
+	margin-top: -3px;
+	background: none;
+	outline: none;
+	border: 1px solid #228DFF;
+	box-shadow: 0 0 10px #228DFF;
+	border-radius: 10%;
+}
+
+.font-change {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size:1.5em;
+	z-index: 0;
+}
+
+.light-blue {
+	border: 3px solid deepskyblue;
+	box-shadow: 3px 3px 10px deepskyblue;
+	color: white;
+	background: deepskyblue;
+	z-index: 0;
+}
+
+.yellow {
+	border: 3px solid #E5E500;
+	box-shadow: 3px 3px 10px #E5E500;
+	color: white;
+	background: #E5E500;
+	z-index: 0;
+}
+
+.orange {
+	border: 3px solid orange;
+	box-shadow: 3px 3px 10px orange;
+	color: white;
+	background: orange;
+	z-index: 0;
+}
+
+.pinkred {
+	border: 3px solid #FF0066;
+	box-shadow: 3px 3px 10px #FF0066;
+	color: white;
+	background: #FF0066;
+	z-index: 0;
+}
+
+.none {
+	border: 3px solid white;
+	box-shadow: 3px 3px 10px white;
+	color: white;
+}
+
+.mine {
+	border: 3px solid red;
+	box-shadow: 3px 3px 10px red;
+	background-image: url("assets/expl4.gif");
+	background-size: 39px 39px;
+	background-repeat: no-repeat;
+	z-index: 1;
+	color: red;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 120px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+		border-radius: 100%;
+}
+
+/* Modal Content */
+.modal-content {
+		text-align: center;
+    position: relative;
+    background-color: black;
+    margin: auto;
+    padding: 75px;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: black;
+    color: red;
+		font-size: 2em;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px 30px 0px;
+    background-color: black;
+}
+
+#btns {
+	margin-top:0px;
+}
+
+.play {
+	text-decoration: none;
+	padding: 6px;
+	border: 1px solid red;
+	box-shadow: 1px 1px 10px red;
+	border-radius: 10%;
+	color: red;
+}
+
+.no-play {
+	text-decoration: none;
+	padding: 6px;
+	border: 1px solid red;
+	box-shadow: 1px 1px 10px red;
+	border-radius: 10%;
+	color: red;
+}
+
+.title {
+	margin-top: 50px;
+	margin-bottom:0px;
+	color: #228DFF;
+	font-size: 3em;
+	font-family: sans-serif;
+}
+
+.intro {
+	text-align: center !important;
+	color: white;
+}
+
+#play-game {
+	text-decoration: none;
+	color: red;
+	display: inline;
+}
+
+.intro-text {
+	font-family: sans-serif;
+	font-size:1.1em;
+	font-style: italic;
+	padding-bottom: 10px;
+}
+
+.the-score {
+	display:none;
+}

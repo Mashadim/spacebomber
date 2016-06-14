@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- encoding must be set for mocha's special characters to render properly -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+		<div class="intro">
+			<h1 class="title"> SPACEBOMBER!</h1>
+			<p class="intro-text">Cadet, your team is in trouble!<br /> It's up to you to unlock all the rooms and save your friends kidnapped by Alien invaders! <br />The numbers represent how many alien bombs surround them.</p>
+			<a href="/random" id="play-game" class="font-change play">START GAME</a>
+			<p class="font-change the-score play"> HOSTAGES SAVED: <span id="score"> 0</span></p>
+		</div><br /><br />
+    <div id="board" class="center"></div>
+		
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script>
+			// populate board with buttons.
+      var $board = $('#board');
+      for (let i = 0; i < 16; i++) {
+        for (let j = 0; j < 16; j++) {
+          $board.append($('<button id="row' + i + '_col' + j + '" data-row="' + i + '" data-column="' + j + '" value="." >.</button>'));
+        }
+      }
+    </script>
+		<div id="gameOverModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-header font-change">
+					<h2>GAME OVER</h2>
+				</div>
+				<div class="modal-body">
+					<img src="http://bestanimations.com/Military/Explosions/funny-explosion-animated-gif-7.gif"/>
+				</div>
+				<div class="modal-footer">
+					<br /><br />
+					<div id="btns">
+						<a href="/random" class="play font-change">PLAY AGAIN?</a><br /><br />
+						<a href="/" class="no-play font-change">END</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="mainLogic.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "spacebomber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mainLogic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongoose": "^4.4.19",
+    "nodemon": "^1.9.2"
+  }
+}
