@@ -1,4 +1,4 @@
-# Spacebomber!
+# SpaceBomber!
 Cadet, your team is in trouble! It's up to you to unlock all the rooms and save your friends kidnapped by Alien invaders! The numbers represent how many alien bombs surround them. How many hostages can you save?
 
 ## Getting Started
