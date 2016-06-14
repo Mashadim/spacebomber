@@ -1,5 +1,5 @@
 {
-  "name": "spacebomber",
+  "name": "spaceBomber",
   "version": "1.0.0",
   "description": "",
   "main": "mainLogic.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "",
+  "author": "Masha Diminsky",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4",
